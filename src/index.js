@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+// We don't need App.css or index.css, AdminPage.css handles it all
+import AdminPage from './AdminPage'; // Import AdminPage instead of App
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <AdminPage /> {/* Render AdminPage instead of App */}
   </React.StrictMode>
 );
 
